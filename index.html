@@ -81,49 +81,101 @@
                 ullam iste earum blanditiis.</p>
         </div>
 
-    </main>
-    <div class="modal">
-        <img src="./imagens/produto5.png" alt="Imagem da Pizza Muçarela" class="modal__img">
-        <div class="modal__detalhes">
-            <span class="modal__titulo">Muçarela</span>
-            <p class="modal__descricao">Lorem ipsum dolor, Cumque, adipisci odio.</p>
-            <span class="modal__texto texto--maiusculo">TAMANHO</span>
-            <div class="modal__tamanho-area">
-                <button>
-                    <span class="modal__texto texto--negrito">Pequena</span>
-                    <span class="modal__texto">320g</span>
-                </button>
-                <button>
-                    <span class="modal__texto texto--negrito">Média</span>
-                    <span class="modal__texto">530g</span>
-                </button>
-                <button>
-                    <span class="modal__texto texto--negrito">Grande</span>
-                    <span class="modal__texto">860g</span>
-                </button>
+        <div class="modal">
+            <img src="./imagens/produto5.png" alt="Imagem da Pizza Muçarela" class="modal__img">
+            <div class="modal__detalhes">
+                <span class="modal__titulo">Muçarela</span>
+                <p class="modal__descricao">Lorem ipsum dolor, Cumque, adipisci odio.</p>
+                <span class="modal__texto texto--maiusculo">TAMANHO</span>
+                <div class="modal__tamanho-area">
+                    <button>
+                        <span class="modal__texto texto--negrito">Pequena</span>
+                        <span class="modal__texto">320g</span>
+                    </button>
+                    <button>
+                        <span class="modal__texto texto--negrito">Média</span>
+                        <span class="modal__texto">530g</span>
+                    </button>
+                    <button>
+                        <span class="modal__texto texto--negrito">Grande</span>
+                        <span class="modal__texto">860g</span>
+                    </button>
 
-            </div>
-            <span class="modal__texto texto--maiusculo">Preço</span>
-            <div class="modal__preco-area">
-                <span class="modal__texto">R$99,99</span>
-                <div class="modal__controle-unidade">
-                    <button><i class="fa-solid fa-plus"></i></button>
-                    <span>1</span>
-                    <button><i class="fa-solid fa-minus"></i></button>
+                </div>
+                <span class="modal__texto texto--maiusculo">Preço</span>
+                <div class="modal__preco-area">
+                    <span class="modal__texto">R$99,99</span>
+                    <div class="modal__controle-unidade">
+                        <button><i class="fa-solid fa-plus"></i></button>
+                        <span>1</span>
+                        <button><i class="fa-solid fa-minus"></i></button>
+                    </div>
+
+                </div>
+                <div class="modal__btns-area">
+                    <button class="botao botao--verde">
+                        Adicionar ao carrinho
+                    </button>
+                    <button class="botao botao--vermelho">
+                        Cancelar
+                    </button>
                 </div>
 
             </div>
-            <div class="modal__btns-area">
+        </div>
+
+        <div class="carrinho">
+            <h2 class="topo__carrinho">Suas Pizzas</h2>
+
+
+            <div class="item">
+
+                <img class="card__img-carrinho" src="./imagens/produto3.png" alt="Imagem de uma pizza">
+                <div class="carrinho_detalhe-compra">
+                    <span class="carrinho__titulo">MINHA PIZZA</span>
+                    <p class="carrinho__preco-pizza">R$ 20,00</p>
+                </div>
+                <div class="carrinho__controle-unidade">
+                    <button><i class="fa-solid fa-minus"></i></button>
+                    <span>1</span>
+                    <button><i class="fa-solid fa-plus"></i></button>
+
+                </div>
+            </div>
+
+            <div class="item">
+
+                <img class="card__img-carrinho" src="./imagens/produto3.png" alt="Imagem de uma pizza">
+                <div class="carrinho_detalhe-compra">
+                    <span class="carrinho__titulo">MINHA PIZZA</span>
+                    <p class="carrinho__preco-pizza">R$ 20,00</p>
+                </div>
+                <div class="carrinho__controle-unidade">
+                    <button><i class="fa-solid fa-minus"></i></button>
+                    <span>1</span>
+                    <button><i class="fa-solid fa-plus"></i></button>
+
+                </div>
+            </div>
+
+
+            <div class="carrinho__compra">
+                <div class="carrinho__subtotal"> Subtotal: <span></span class="carrinho__valores">R$ 150,00 </div>
+                <div class="carrinho__desconto"> Desconto(-10%) <span></span class="carrinho__valores">R$ 15,00 </div>
+                <div class="carrinho__total"> Total: <span></span class="carrinho__valores">R$ 135,00</div>
+            </div>
+
+
+            <div class="carrinho__botao-finalizar">
                 <button class="botao botao--verde">
-                    Adicionar ao carrinho
-                </button>
-                <button class="botao botao--vermelho">
-                    Cancelar
+                    Finalizar Compra
                 </button>
             </div>
 
+
         </div>
-    </div>
+    </main>
+
 
 
 
@@ -143,7 +195,7 @@
     </footer>
 
 
-    
+
 
 
 </body>

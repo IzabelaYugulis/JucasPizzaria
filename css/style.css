@@ -181,12 +181,89 @@ main {
 .botao--verde{
     background-color: var(--color-sucesso);
 }
-.botao--verde button:hover{
-    background-color: var(--color-sucesso-hover);
-}
+
 .botao--vermelho{
     background-color: var(--color-danger);
 }
 .botao--vermelho button:hover{
     background-color: var(--color-danger-hover);
 }
+.botao--verde button:hover{
+    background-color: var(--color-sucesso-hover);
+}
+
+
+
+.carrinho {
+    background-color: var(--color-azul-claro);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 504px;
+    border-radius: 35px;
+    padding: 10px;
+    gap: 10px;  
+    align-items: center;
+}
+.topo__carrinho{
+    font-family: var(--font-bold);
+    font-size: 2rem;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-bottom: 16px;
+}
+
+
+
+   .carrinho__titulo{
+       font-family: var(--font-regular);
+       font-size: 1,5rem;
+   }
+   .carrinho__preco-pizza{
+    font-family: var(--font-regular);
+    font-size: 1,5rem;
+   }
+   
+
+.card__img-carrinho{
+    width: 20%;
+    padding: 30px;
+}
+
+.carrinho__img {
+    width: 80px;
+}
+
+.carrinho__compra {
+    color: var(--color-azul-escuro);
+    font-family: var(--font-bold);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 504px;
+     gap: 10px;
+ 
+}
+
+.carrinho__botao-finalizar
+{
+    display: flex;
+    gap: 16px;
+}
+.carrinho__controle-unidade{
+    border-radius: 16px;
+    background-color: var(--color-cinza-claro);
+    font-size: 1.25rem;
+    overflow: hidden;
+    
+}
+.carrinho__controle-unidade button{
+    padding: 16px 20px;
+}
+.carrinho__controle-unidade button:hover{
+    background-color: var(--color-cinza-escuro); }
